@@ -1,0 +1,54 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Getränke-System</title>
+
+    <!-- ICONS LADEN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Getränkeverwaltung – Getränke-System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<div class="navbar">
+    <div class="nav-inner">
+        <div class="nav-left">
+            <img src="logo.png" class="logo" alt="Logo">
+            <span>Admin – Getränke</span>
+        </div>
+        <div class="nav-links">
+            <a href="admin_dashboard.html">Dashboard</a>
+            <a href="admin_users.html">Benutzer</a>
+            <a href="getraenke_admin.html">Getränke</a>
+            <a href="index.html">Logout</a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <h1>Getränkeverwaltung</h1>
+
+    <div class="card">
+        <h3>Neues Getränk</h3>
+        <input id="newDrinkName" placeholder="Name">
+        <input id="newDrinkPrice" placeholder="Preis in €">
+        <button onclick="addDrink()">Hinzufügen</button>
+    </div>
+
+    <div id="drinkAdminList"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+

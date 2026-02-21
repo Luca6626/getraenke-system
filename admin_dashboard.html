@@ -1,0 +1,53 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Getränke-System</title>
+
+    <!-- ICONS LADEN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard – Getränke-System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<div class="navbar">
+    <div class="nav-inner">
+        <div class="nav-left">
+            <img src="logo.png" class="logo" alt="Logo">
+            <span>Admin Dashboard</span>
+        </div>
+        <div class="nav-links">
+            <a href="admin_dashboard.html">Dashboard</a>
+            <a href="admin_users.html">Benutzer</a>
+            <a href="getraenke_admin.html">Getränke</a>
+            <a href="index.html">Logout</a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <h1>Übersicht</h1>
+
+    <div class="dashboard-grid mt-20">
+        <div class="stat-box" id="userCount"></div>
+        <div class="stat-box" id="totalDebt"></div>
+        <div class="stat-box" id="drinkCount"></div>
+        <div class="stat-box" id="maxDebt"></div>
+    </div>
+
+    <div class="mt-20">
+        <button onclick="resetSystem()">System komplett zurücksetzen</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
