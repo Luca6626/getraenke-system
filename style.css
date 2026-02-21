@@ -1,0 +1,103 @@
+/* ===== Global ===== */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", Arial, sans-serif;
+    background: #0f0f0f;
+    color: #fff;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+/* ===== Card Style ===== */
+
+.card {
+    background: #1a1a1a;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.4);
+    margin-bottom: 25px;
+}
+
+/* ===== Inputs ===== */
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: none;
+    background: #2a2a2a;
+    color: white;
+    font-size: 16px;
+}
+
+/* ===== Buttons ===== */
+
+button {
+    padding: 12px 18px;
+    background: #4a90e2;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #357ABD;
+}
+
+/* ===== User Cards ===== */
+
+.user-card {
+    background: #222;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px; /* Größer */
+}
+
+.user-card input {
+    width: 150px;
+    font-size: 18px;
+}
+
+.user-card select {
+    width: 120px;
+    font-size: 18px;
+}
+
+/* ===== Drink Buttons ===== */
+
+.drink-button {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    background: #333;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.drink-button:hover {
+    background: #444;
+}
+
+/* ===== Dashboard Stats ===== */
+
+.stat-box {
+    background
