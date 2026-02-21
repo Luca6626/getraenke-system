@@ -7,19 +7,28 @@
 </head>
 <body>
 
-<div class="container">
+<div class="dashboard-container">
 
     <h1>Admin Dashboard</h1>
 
-    <div class="stat-box" id="userCount"></div>
-    <div class="stat-box" id="totalDebt"></div>
-    <div class="stat-box" id="drinkCount"></div>
-    <div class="stat-box" id="maxDebt"></div>
+    <div class="dashboard-grid">
+        <div class="card stat-card" id="userCount">Lädt...</div>
+        <div class="card stat-card" id="totalDebt">Lädt...</div>
+        <div class="card stat-card" id="drinkCount">Lädt...</div>
+        <div class="card stat-card" id="maxDebt">Lädt...</div>
+    </div>
 
-    <button onclick="resetSystem()">System zurücksetzen</button>
+    <div class="dashboard-buttons">
+        <a class="button" href="admin.html">User verwalten</a>
+        <a class="button" href="getraenke_admin.html">Getränke verwalten</a>
+        <a class="button danger" onclick="resetSystem()">System zurücksetzen</a>
+        <a class="button" href="index.html">Logout</a>
+    </div>
 
 </div>
 
-<script src="script.js"></script>
+<script src="dashboard.js"></script>
 </body>
 </html>
+
+<a class="button" href="admin_users.html">Benutzer verwalten</a>
