@@ -1,0 +1,45 @@
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+
+<script src="script.js"></script>
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>User – Getränke-System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">
+    <div class="nav-inner">
+        <div class="nav-left">
+            <span class="logo-text">User-Bereich</span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" onclick="logout()">Logout</a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="card">
+        <h2 id="welcome"></h2>
+        <p id="balance"></p>
+        <p id="warning" class="warning"></p>
+    </div>
+
+    <h3>Getränke buchen</h3>
+    <div id="drinkList"></div>
+
+    <h3>Alle Benutzer</h3>
+    <div id="userDrinkList"></div>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>

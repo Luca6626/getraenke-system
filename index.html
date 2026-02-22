@@ -1,0 +1,39 @@
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+
+<script src="script.js"></script>
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Login – Getränke-System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">
+    <div class="nav-inner">
+        <div class="nav-left">
+            <span class="logo-text">Getränke-System</span>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="card login-card">
+        <h2>Einloggen</h2>
+        <input type="text" id="username" placeholder="Benutzername">
+        <input type="password" id="password" placeholder="Passwort">
+        <button id="loginBtn">Einloggen</button>
+        <p id="message"></p>
+    </div>
+</div>
+
+<!-- Firebase (compat, damit es ohne Build läuft) -->
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
