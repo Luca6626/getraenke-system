@@ -1,0 +1,136 @@
+/* Grundlayout */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #fff;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    background: #1e1e1e;
+    padding: 15px 0;
+    box-shadow: 0 0 10px #000;
+}
+
+.nav-inner {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 22px;
+    font-weight: bold;
+    color: #4da3ff;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #4da3ff;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    margin: 30px auto;
+}
+
+/* Karten */
+.card {
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 10px #000;
+}
+
+.sub-card {
+    background: #222;
+    margin-top: 15px;
+}
+
+/* Login-Karte */
+.login-card {
+    max-width: 350px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+/* Inputs */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: none;
+    background: #2a2a2a;
+    color: #fff;
+}
+
+input:focus, select:focus {
+    outline: 2px solid #4da3ff;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #4da3ff;
+    border: none;
+    border-radius: 8px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #6bb6ff;
+}
+
+button.danger {
+    background: #ff4d4d;
+}
+
+button.danger:hover {
+    background: #ff6b6b;
+}
+
+/* Listen */
+#drinkList button,
+#userDrinkList button,
+#drinkAdminList button,
+#adminUserList button {
+    margin-top: 5px;
+}
+
+/* Warnungen */
+.warning {
+    color: #ff4d4d;
+    font-weight: bold;
+}
+
+/* Dashboard */
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+}
+
+.stat-box {
+    background: #222;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+}
