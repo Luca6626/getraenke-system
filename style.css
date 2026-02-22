@@ -1,0 +1,198 @@
+/* ===========================
+   GLOBAL
+=========================== */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f0f0f;
+    color: #fff;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+/* ===========================
+   NAVBAR
+=========================== */
+
+.navbar {
+    width: 100%;
+    background: #1b1b1b;
+    padding: 15px 0;
+    box-shadow: 0 0 12px rgba(0,0,0,0.6);
+}
+
+.nav-inner {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 22px;
+    font-weight: bold;
+    color: #4da3ff;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    color: #ddd;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.nav-links a:hover {
+    color: #4da3ff;
+}
+
+/* ===========================
+   CARDS
+=========================== */
+
+.card {
+    background: #1a1a1a;
+    padding: 25px;
+    border-radius: 14px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.5);
+}
+
+.sub-card {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* ===========================
+   INPUTS & BUTTONS
+=========================== */
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: none;
+    background: #2a2a2a;
+    color: #fff;
+    font-size: 15px;
+}
+
+input:focus, select:focus {
+    outline: 2px solid #4da3ff;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #4da3ff;
+    border: none;
+    border-radius: 8px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #6bb6ff;
+}
+
+button.danger {
+    background: #ff4d4d;
+}
+
+button.danger:hover {
+    background: #ff6b6b;
+}
+
+/* ===========================
+   LISTEN / USER-CARDS
+=========================== */
+
+.user-card {
+    background: #222;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.4);
+}
+
+.user-card input {
+    margin-bottom: 6px;
+}
+
+/* ===========================
+   WARNUNGEN
+=========================== */
+
+.warning {
+    color: #ff4d4d;
+    font-weight: bold;
+}
+
+/* ===========================
+   DASHBOARD
+=========================== */
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.stat-box {
+    background: #222;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.stat-box h2 {
+    margin: 0;
+    font-size: 32px;
+    color: #4da3ff;
+}
+
+/* ===========================
+   DRINK BUTTONS
+=========================== */
+
+.drink-button {
+    width: 100%;
+    padding: 12px;
+    background: #333;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.drink-button:hover {
+    background: #4da3ff;
+    color: #000;
+}
+
+/* ===========================
+   LOGIN CARD
+=========================== */
+
+.login-card {
+    max-width: 350px;
+    margin: 80px auto;
+    text-align: center;
+}

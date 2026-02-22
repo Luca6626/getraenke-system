@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>User – Getränke-System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="nav-inner">
+        <span class="logo-text">User-Bereich</span>
+        <div class="nav-links">
+            <a href="index.html" onclick="logout()">Logout</a>
+        </div>
+    </div>
+</div>
+
+<!-- CONTENT -->
+<div class="container">
+
+    <!-- USER INFO -->
+    <div class="card">
+        <h2 id="welcome">Hallo!</h2>
+        <p id="balance"></p>
+        <p id="warning" class="warning"></p>
+    </div>
+
+    <!-- DRINK BOOKING -->
+    <div class="card">
+        <h2>Getränke buchen</h2>
+        <div id="drinkList"></div>
+    </div>
+
+    <!-- ALL USERS -->
+    <div class="card">
+        <h2>Alle Benutzer</h2>
+        <div id="userDrinkList"></div>
+    </div>
+
+</div>
+
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
